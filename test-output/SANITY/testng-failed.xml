@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SANITY]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestOrangeHRM(failed)">
+    <classes>
+      <class name="testng.TestClass">
+        <methods>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+          <include name="beforeclass"/>
+          <include name="ValidationOfHomePage"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- testng.TestClass -->
+    </classes>
+  </test> <!-- TestOrangeHRM(failed) -->
+</suite> <!-- Failed suite [SANITY] -->
